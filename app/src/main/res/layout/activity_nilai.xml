@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NilaiActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text="Nilai Mahasiswa"/>
+        <TableRow>
+            <TextView android:text="No Bp "
+                android:layout_weight="1"/>
+            <EditText android:hint="No Bp"
+                android:layout_weight="5"
+                android:id="@+id/etNB"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Mata Kuliah "
+                android:layout_weight="1"/>
+            <EditText android:hint="MatKul"
+                android:layout_weight="5"
+                android:id="@+id/etMK"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nilai UAS "
+                android:layout_weight="1"/>
+            <EditText android:hint="Uas"
+                android:layout_weight="5"
+                android:id="@+id/etNUas"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nilai Uts "
+                android:layout_weight="1"/>
+            <EditText android:hint="Uts"
+                android:layout_weight="5"
+                android:id="@+id/etNUts"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nilai Tgs "
+                android:layout_weight="1"/>
+            <EditText android:hint="Tgs"
+                android:layout_weight="5"
+                android:id="@+id/etNTgs"/>
+        </TableRow>
+        <Button android:id="@+id/btnProsesNilai"
+            android:text="Proses"/>
+    </TableLayout>
+</RelativeLayout>
+</ScrollView>

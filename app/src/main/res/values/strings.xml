@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ZeinBelajar7</string>
+    <string-array name="pilihan_jurusan">
+        <item>Teknik Komputer</item>
+        <item>Manajemen Informasi</item>
+    </string-array>
+    <string name="title_activity_nilai">NilaiActivity</string>
+    <string name="title_activity_hasil">HasilActivity</string>
+</resources>
